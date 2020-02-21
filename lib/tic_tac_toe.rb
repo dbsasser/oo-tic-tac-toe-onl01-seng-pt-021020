@@ -75,8 +75,7 @@ class TicTacToe
       move(index, char)
       display_board
     else
-      puts "Please enter 1-9:"
-      user_input = gets.strip
+      turn
     end
   end
 
