@@ -47,6 +47,9 @@ class TicTacToe
     end
   end
   
+  def turn_count 
+    @board.each collect { |
+  
   def turn 
     puts "Which square would you like?"
     # user_input = gets.chomp
