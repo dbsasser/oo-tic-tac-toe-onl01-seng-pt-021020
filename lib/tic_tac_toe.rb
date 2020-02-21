@@ -76,9 +76,9 @@ class TicTacToe
       # pos_2 = combo[1]
       # pos_3 = combo[2]
       
-      if @board[combo[0]] == "X" && @board[combo[1]] == "X" && @board[combo[2] == "X"
+      if @board[combo[0]] == "X" && @board[combo[1]] == "X" && @board[combo[2]] == "X"
         return combo 
-      elsif (@board[combo[0]]) == "O" && (@board[combo[1]]) == "O" && (@board[combo[2]]) == "O"
+      elsif @board[combo[0]] == "O" && @board[combo[1]] == "O" && @board[combo[2]] == "O"
         return combo 
       else
         false 
