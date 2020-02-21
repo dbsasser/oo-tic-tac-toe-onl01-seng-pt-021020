@@ -72,8 +72,8 @@ class TicTacToe
   end
   
   def won?
-    WIN_COMBINATIONS.detect |combos|
-    
+    WIN_COMBINATIONS.detect do |combo|
+    if combo[x] == "X" && combo[x] == "X" 
 
 
 end
