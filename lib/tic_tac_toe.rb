@@ -39,13 +39,13 @@ class TicTacToe
     end 
   end
 
-def valid_move?(index)
-  if index <= 8 && @board[index] == " "
-    true
-  else
-    false
+  def valid_move?(index)
+    if index <= 8 && @board[index] == " "
+      true
+    else
+      false
+    end
   end
-end
   
 def turn 
   puts "Which square would you like?"
