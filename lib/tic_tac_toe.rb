@@ -47,9 +47,9 @@ class TicTacToe
     end
   end
   
-def turn 
-  puts "Which square would you like?"
-  user_input = gets.chomp
-end
+  def turn 
+    puts "Which square would you like?"
+    # user_input = gets.chomp
+  end
 
 end
