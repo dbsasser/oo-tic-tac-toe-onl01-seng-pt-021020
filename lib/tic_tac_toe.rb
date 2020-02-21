@@ -48,7 +48,14 @@ class TicTacToe
   end
   
   def turn_count 
-    @board.each collect { |
+    turn_number = 0
+    @board.each do |board_space|
+      if board_space != " "
+        turn_number += 1 
+      end
+    end
+    turn_number
+  end
   
   def turn 
     puts "Which square would you like?"
