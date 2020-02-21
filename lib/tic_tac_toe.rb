@@ -73,7 +73,14 @@ class TicTacToe
   
   def won?
     WIN_COMBINATIONS.detect do |combo|
-    if combo[x] == "X" && combo[x] == "X" 
+    if combo[0] == "X" && combo[1] == "X" && combo[3] == "X"
+      return combo 
+    elsif combo[0] == "O" && combo[1] == "O" && combo[3] == "O"
+      return combo 
+    else
+      false 
+    end 
+  end
 
 
 end
