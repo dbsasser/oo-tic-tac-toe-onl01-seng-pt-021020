@@ -72,8 +72,7 @@ class TicTacToe
   end
   
   def won?
-    WIN_COMBINATIONS.detect do |combo|
-      # pos_1 = combo[0]
+    WIN_COMBINATIONS.each do [0]
       # pos_2 = combo[1]
       # pos_3 = combo[2]
       
