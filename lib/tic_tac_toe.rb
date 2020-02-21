@@ -57,6 +57,12 @@ class TicTacToe
     turn_number
   end
   
+  def current_player
+    if turn_count.even?
+    end
+  end
+  
+  
   def turn 
     puts "Which square would you like?"
     # user_input = gets.chomp
