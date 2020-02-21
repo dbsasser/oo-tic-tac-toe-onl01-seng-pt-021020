@@ -31,12 +31,12 @@ class TicTacToe
     @board[input] = token
   end
 
-def position_taken?(input_to_index)
-  if @board[input_to_index] == " "
-    false
-  else
-    true
-  end 
+  def position_taken?(input_to_index)
+    if @board[input_to_index] == " "
+      false
+    else
+     true
+    end 
 end
 
 def valid_move?(index)
