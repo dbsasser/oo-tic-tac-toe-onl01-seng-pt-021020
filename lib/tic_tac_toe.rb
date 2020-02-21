@@ -75,7 +75,9 @@ class TicTacToe
       move(user_input, current_player)
       display_board
       break
-    end
   end
+  end
+  
+end
 
 end
