@@ -52,7 +52,3 @@ def turn
   user_input = gets.chomp
 end
 
-def turn_count 
-
-
-end
