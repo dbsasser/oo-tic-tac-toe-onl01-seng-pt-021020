@@ -70,6 +70,9 @@ class TicTacToe
       turn
     end
   end
+  
+  def won?
+    
 
 
 end
