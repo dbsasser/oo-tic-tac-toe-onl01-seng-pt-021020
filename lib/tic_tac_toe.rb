@@ -75,7 +75,7 @@ class TicTacToe
       move(index, char)
       display_board
     else
-      self
+      
     end
   end
 
